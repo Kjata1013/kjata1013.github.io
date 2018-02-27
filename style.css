@@ -1,0 +1,97 @@
+html{
+    color:black;
+    background: whitesmoke;
+}
+
+
+body{
+    white-space: nowrap;
+    font-family: 'Courier New', Courier, monospace;
+     
+}
+
+
+div.trello-list1{
+/*Layout*/
+    display: inline-block;
+    width: 300px;
+    margin-right: 10px;
+    vertical-align: top;
+/*Look & Feel*/
+background-color:#ee3e64;
+opacity: 0.9;
+border-radius: 2px 3px;
+border: 2px solid ghostwhite;
+}
+
+div.trello-list2{
+    /*Layout*/
+        display: inline-block;
+        width: 300px;
+        margin-right: 10px;
+        vertical-align: top;
+    /*Look & Feel*/
+    background-color:#eec83e;
+    opacity: 0.9;
+    border-radius: 2px 3px;
+    border: 2px solid ghostwhite;
+    }
+
+    div.trello-list3{
+        /*Layout*/
+            display: inline-block;
+            width: 300px;
+            margin-right: 10px;
+            vertical-align: top;
+        /*Look & Feel*/
+        background-color:#64ee3e;
+        opacity: 0.9;
+        border-radius: 2px 3px;
+        border: 2px solid ghostwhite;
+        } 
+
+/*Targets any H2 inside of <div class"trello-list" tag */
+div.trello-list h2 {
+
+    /*spacing*/
+    padding: 5px;
+    color: black;
+   
+}
+div.trello-list ol {
+    margin: 0;
+    padding: 0;
+}
+
+div.trello-list li {
+
+    /*Look & Feel*/
+    list-style: none;
+    background-color:ghostwhite;
+    color: black;
+
+    /*spacing*/
+    margin-bottom: 10px;
+    padding: 5px;
+}
+
+div.trello-list li:hover,
+div.trello-list a:hover{
+    background-color: #CCC;
+ 
+}
+div.trello-list a{
+    display: block;
+
+    text-decoration: none;
+    color: #888;
+
+
+    padding: 0px 0px 5px 5px;
+}
+
+div.title{
+
+ background: #44accf;
+
+}
