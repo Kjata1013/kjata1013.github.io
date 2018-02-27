@@ -6,7 +6,7 @@ html{
 
 body{
     white-space: nowrap;
-    font-family: 'Courier New', Courier, monospace;
+    font-family: 'Raleway', sans-serif;
      
 }
 
@@ -21,7 +21,6 @@ div.trello-list1{
 background-color:#ee3e64;
 opacity: 0.9;
 border-radius: 2px 3px;
-border: 2px solid ghostwhite;
 }
 
 div.trello-list2{
@@ -54,7 +53,8 @@ div.trello-list2{
 div.trello-list h2 {
 
     /*spacing*/
-    padding: 5px;
+   /* padding: 5px;*/
+    margin: 8px 3px;
     color: black;
    
 }
@@ -87,7 +87,7 @@ div.trello-list a{
     color: #888;
 
 
-    padding: 0px 0px 5px 5px;
+    padding: 5px 0px 5px 5px;
 }
 
 div.title{
