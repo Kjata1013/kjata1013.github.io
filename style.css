@@ -8,17 +8,14 @@ body
             #222 3px
         );
         background-attachment: fixed;
-        font-family: 'Roboto';
-       
+        font-family: 'Roboto'; 
     }
 ul
     {
-      
-        
         font-size: 30px;
         text-align: center;  
     }
-    a
+a
     {
         list-style-type: none;
         text-decoration: none;
@@ -30,7 +27,7 @@ ul
         box-shadow: darkmagenta 3px 3px;
         color:#F46036;
     }
-    li
+li
     {
         display: inline;   
     }
